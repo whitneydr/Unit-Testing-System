@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="GuOx_50k6y2i7Fft9hjO" name="Page-1">
-        <mxGraphModel dx="891" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="891" dy="259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -151,7 +151,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="7" value="Scrum Master / &lt;br&gt;Project Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#009900;" parent="1" vertex="1">
+                <mxCell id="7" value="Scrum Master / &lt;br&gt;Project Manager /&lt;br&gt;Product Owner" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#009900;" parent="1" vertex="1">
                     <mxGeometry x="720" y="215" width="30" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="46" style="edgeStyle=none;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;fillColor=#7F00FF;" parent="1" source="8" target="10" edge="1">
@@ -250,7 +250,7 @@
                         <mxPoint x="600" y="735" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="53" value="&lt;h1&gt;Use cases&lt;/h1&gt;&lt;p&gt;Use cases for the Unit Testing System (UTS), a tool which is aimed at developers, testers, scrum masters and project managers&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                <mxCell id="53" value="&lt;h1&gt;User stories&lt;/h1&gt;&lt;p&gt;User stories for the Unit Testing System (UTS), a tool which is aimed at developers, testers, scrum masters and project managers&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="355" y="40" width="190" height="120" as="geometry"/>
                 </mxCell>
             </root>
