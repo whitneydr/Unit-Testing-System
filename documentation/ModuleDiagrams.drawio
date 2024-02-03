@@ -187,8 +187,8 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="fyY8U2kxj-wcBbfb5ikH-9" value="&lt;b&gt;OUTPUT error&lt;/b&gt; - &quot;Username or password incorrect&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFFFFF;strokeColor=#000000;rounded=0;shadow=0;spacingLeft=0;spacingRight=0;spacing=2;" parent="1" vertex="1">
-                    <mxGeometry x="640" y="320" width="120" height="60" as="geometry"/>
+                <mxCell id="fyY8U2kxj-wcBbfb5ikH-9" value="&lt;b&gt;OUTPUT error&lt;/b&gt; - &quot;Username or password incorrect&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFFFFF;strokeColor=#000000;rounded=0;shadow=0;spacingLeft=8;spacingRight=8;spacing=2;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="320" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="fyY8U2kxj-wcBbfb5ikH-15" value="" style="edgeStyle=none;html=1;" parent="1" source="fyY8U2kxj-wcBbfb5ikH-12" target="fyY8U2kxj-wcBbfb5ikH-14" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -230,46 +230,46 @@
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="_Nyswi0cJlhYhOQDGxXt-3" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="33psBw0loe2s3ne4JGTk-1" target="_Nyswi0cJlhYhOQDGxXt-2">
+                <mxCell id="_Nyswi0cJlhYhOQDGxXt-3" value="" style="edgeStyle=none;html=1;" parent="1" source="33psBw0loe2s3ne4JGTk-1" target="_Nyswi0cJlhYhOQDGxXt-2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="33psBw0loe2s3ne4JGTk-1" value="&lt;b&gt;START&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="33psBw0loe2s3ne4JGTk-1" value="&lt;b&gt;START&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="414" y="40" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="_Nyswi0cJlhYhOQDGxXt-1" value="&lt;h1&gt;New project&lt;/h1&gt;&lt;p&gt;Process of creating a new project. This is an overarching container in which tests can be grouped.&lt;/p&gt;" style="text;html=1;strokeColor=#B3B3B3;fillColor=#F0F0F0;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;" vertex="1" parent="1">
+                <mxCell id="_Nyswi0cJlhYhOQDGxXt-1" value="&lt;h1&gt;New project&lt;/h1&gt;&lt;p&gt;Process of creating a new project. This is an overarching container in which tests can be grouped.&lt;/p&gt;" style="text;html=1;strokeColor=#B3B3B3;fillColor=#F0F0F0;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="30" y="31" width="200" height="109" as="geometry"/>
                 </mxCell>
-                <mxCell id="_Nyswi0cJlhYhOQDGxXt-5" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="_Nyswi0cJlhYhOQDGxXt-2" target="_Nyswi0cJlhYhOQDGxXt-4">
+                <mxCell id="_Nyswi0cJlhYhOQDGxXt-5" value="" style="edgeStyle=none;html=1;" parent="1" source="_Nyswi0cJlhYhOQDGxXt-2" target="_Nyswi0cJlhYhOQDGxXt-4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="_Nyswi0cJlhYhOQDGxXt-2" value="&lt;b&gt;CLICK&lt;br&gt;'Create new project'&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+                <mxCell id="_Nyswi0cJlhYhOQDGxXt-2" value="&lt;b&gt;CLICK&lt;br&gt;'Create new project'&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="401" y="130" width="146" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="AmppWKOFMQ5c8f4MuqpN-4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="_Nyswi0cJlhYhOQDGxXt-4" target="AmppWKOFMQ5c8f4MuqpN-3">
+                <mxCell id="AmppWKOFMQ5c8f4MuqpN-4" value="" style="edgeStyle=none;html=1;" parent="1" source="_Nyswi0cJlhYhOQDGxXt-4" target="AmppWKOFMQ5c8f4MuqpN-3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="_Nyswi0cJlhYhOQDGxXt-4" value="&lt;b&gt;DISPLAY new project form&lt;br&gt;&lt;/b&gt;with project title, summary, participants, acceptance criteria and deadline fields" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+                <mxCell id="_Nyswi0cJlhYhOQDGxXt-4" value="&lt;b&gt;DISPLAY new project form&lt;br&gt;&lt;/b&gt;with project title, summary, participants, acceptance criteria and deadline fields" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="345.5" y="220" width="257" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="_fUUcRKQ4hCqRtkVBzpE-2" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="AmppWKOFMQ5c8f4MuqpN-3" target="_fUUcRKQ4hCqRtkVBzpE-1">
+                <mxCell id="_fUUcRKQ4hCqRtkVBzpE-2" value="" style="edgeStyle=none;html=1;" parent="1" source="AmppWKOFMQ5c8f4MuqpN-3" target="_fUUcRKQ4hCqRtkVBzpE-1" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="AmppWKOFMQ5c8f4MuqpN-3" value="&lt;b&gt;INPUT project details &lt;br&gt;&lt;/b&gt;and&lt;b&gt; SUBMIT&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+                <mxCell id="AmppWKOFMQ5c8f4MuqpN-3" value="&lt;b&gt;INPUT project details &lt;br&gt;&lt;/b&gt;and&lt;b&gt; SUBMIT&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="396" y="330" width="156" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="_fUUcRKQ4hCqRtkVBzpE-4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="_fUUcRKQ4hCqRtkVBzpE-1" target="_fUUcRKQ4hCqRtkVBzpE-3">
+                <mxCell id="_fUUcRKQ4hCqRtkVBzpE-4" value="" style="edgeStyle=none;html=1;" parent="1" source="_fUUcRKQ4hCqRtkVBzpE-1" target="_fUUcRKQ4hCqRtkVBzpE-3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="_fUUcRKQ4hCqRtkVBzpE-1" value="&lt;b&gt;ADD project to database&lt;/b&gt; with unique ID" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                <mxCell id="_fUUcRKQ4hCqRtkVBzpE-1" value="&lt;b&gt;ADD project to database&lt;/b&gt; with unique ID" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="414" y="420" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="_fUUcRKQ4hCqRtkVBzpE-8" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="_fUUcRKQ4hCqRtkVBzpE-3" target="_fUUcRKQ4hCqRtkVBzpE-7">
+                <mxCell id="_fUUcRKQ4hCqRtkVBzpE-8" value="" style="edgeStyle=none;html=1;" parent="1" source="_fUUcRKQ4hCqRtkVBzpE-3" target="_fUUcRKQ4hCqRtkVBzpE-7" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="_fUUcRKQ4hCqRtkVBzpE-3" value="&lt;b&gt;OUTPUT project page&lt;/b&gt; &lt;br&gt;with the details previously input and the option to add tests&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="369" y="510" width="210" height="70" as="geometry"/>
+                <mxCell id="_fUUcRKQ4hCqRtkVBzpE-3" value="&lt;b&gt;OUTPUT project page&lt;/b&gt; &lt;br&gt;with the details previously input and the option to add tests&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;spacingRight=8;spacingLeft=8;" parent="1" vertex="1">
+                    <mxGeometry x="369" y="510" width="221" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="_fUUcRKQ4hCqRtkVBzpE-7" value="&lt;b&gt;END&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="_fUUcRKQ4hCqRtkVBzpE-7" value="&lt;b&gt;END&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="414" y="640" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
@@ -280,58 +280,58 @@
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="f80OO24gTt6-uvhXByeH-3" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="f80OO24gTt6-uvhXByeH-1" target="f80OO24gTt6-uvhXByeH-2">
+                <mxCell id="f80OO24gTt6-uvhXByeH-3" value="" style="edgeStyle=none;html=1;" parent="1" source="f80OO24gTt6-uvhXByeH-1" target="f80OO24gTt6-uvhXByeH-2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="f80OO24gTt6-uvhXByeH-1" value="&lt;b&gt;START&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="f80OO24gTt6-uvhXByeH-1" value="&lt;b&gt;START&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="354" y="40" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="djushEhwb5dEfLm99lg4-2" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="f80OO24gTt6-uvhXByeH-2" target="djushEhwb5dEfLm99lg4-1">
+                <mxCell id="djushEhwb5dEfLm99lg4-2" value="" style="edgeStyle=none;html=1;" parent="1" source="f80OO24gTt6-uvhXByeH-2" target="djushEhwb5dEfLm99lg4-1" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="f80OO24gTt6-uvhXByeH-2" value="&lt;b&gt;CLICK 'Add new test'&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+                <mxCell id="f80OO24gTt6-uvhXByeH-2" value="&lt;b&gt;CLICK 'Add new test'&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;spacing=2;spacingRight=8;spacingLeft=8;" parent="1" vertex="1">
                     <mxGeometry x="346" y="140" width="136" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="bAp4nz-qdbp_IzpSCIqR-1" value="&lt;h1&gt;New test&lt;/h1&gt;&lt;p&gt;Process of creating a new test and attaching it to the project.&lt;/p&gt;" style="text;html=1;strokeColor=#B3B3B3;fillColor=#F0F0F0;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;" vertex="1" parent="1">
+                <mxCell id="bAp4nz-qdbp_IzpSCIqR-1" value="&lt;h1&gt;New test&lt;/h1&gt;&lt;p&gt;Process of creating a new test and attaching it to the project.&lt;/p&gt;" style="text;html=1;strokeColor=#B3B3B3;fillColor=#F0F0F0;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="30" y="31" width="200" height="109" as="geometry"/>
                 </mxCell>
-                <mxCell id="djushEhwb5dEfLm99lg4-4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="djushEhwb5dEfLm99lg4-1" target="djushEhwb5dEfLm99lg4-3">
+                <mxCell id="djushEhwb5dEfLm99lg4-4" value="" style="edgeStyle=none;html=1;" parent="1" source="djushEhwb5dEfLm99lg4-1" target="djushEhwb5dEfLm99lg4-3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="djushEhwb5dEfLm99lg4-1" value="&lt;b&gt;DISPLAY new test form&lt;/b&gt;&lt;br&gt;with fields for title, description, steps, assignee, connected ACs, expected outcome, input data" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="318" y="240" width="192" height="70" as="geometry"/>
+                <mxCell id="djushEhwb5dEfLm99lg4-1" value="&lt;b&gt;DISPLAY new test form&lt;/b&gt;&lt;br&gt;with fields for title, description, steps, assignee, connected ACs, expected outcome, input data" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;spacingRight=8;spacingLeft=8;" parent="1" vertex="1">
+                    <mxGeometry x="318" y="240" width="202" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="djushEhwb5dEfLm99lg4-6" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="djushEhwb5dEfLm99lg4-3" target="djushEhwb5dEfLm99lg4-5">
+                <mxCell id="djushEhwb5dEfLm99lg4-6" value="" style="edgeStyle=none;html=1;" parent="1" source="djushEhwb5dEfLm99lg4-3" target="djushEhwb5dEfLm99lg4-5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="djushEhwb5dEfLm99lg4-3" value="&lt;b&gt;INPUT test details&lt;br&gt;&lt;/b&gt;Required: Title, description, connected AC" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+                <mxCell id="djushEhwb5dEfLm99lg4-3" value="&lt;b&gt;INPUT test details&lt;br&gt;&lt;/b&gt;Required: Title, description, connected AC" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="327" y="340" width="174" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="djushEhwb5dEfLm99lg4-8" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="djushEhwb5dEfLm99lg4-5" target="djushEhwb5dEfLm99lg4-7">
+                <mxCell id="djushEhwb5dEfLm99lg4-8" value="" style="edgeStyle=none;html=1;" parent="1" source="djushEhwb5dEfLm99lg4-5" target="djushEhwb5dEfLm99lg4-7" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="djushEhwb5dEfLm99lg4-5" value="&lt;b&gt;GENERATE unique test id and ADD to parent project&lt;/b&gt; object in database" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                <mxCell id="djushEhwb5dEfLm99lg4-5" value="&lt;b&gt;GENERATE unique test id and ADD to parent project&lt;/b&gt; object in database" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="337" y="440" width="154" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="djushEhwb5dEfLm99lg4-10" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="djushEhwb5dEfLm99lg4-7" target="djushEhwb5dEfLm99lg4-9">
+                <mxCell id="djushEhwb5dEfLm99lg4-10" value="" style="edgeStyle=none;html=1;" parent="1" source="djushEhwb5dEfLm99lg4-7" target="djushEhwb5dEfLm99lg4-9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="djushEhwb5dEfLm99lg4-7" value="&lt;b&gt;OUTPUT Project page&lt;br&gt;&lt;/b&gt;with newly created test added to test list" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+                <mxCell id="djushEhwb5dEfLm99lg4-7" value="&lt;b&gt;OUTPUT Project page&lt;br&gt;&lt;/b&gt;with newly created test added to test list" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;spacingRight=8;spacingLeft=8;" parent="1" vertex="1">
                     <mxGeometry x="327" y="560" width="174" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="djushEhwb5dEfLm99lg4-12" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="djushEhwb5dEfLm99lg4-9" target="djushEhwb5dEfLm99lg4-11">
+                <mxCell id="djushEhwb5dEfLm99lg4-12" value="" style="edgeStyle=none;html=1;" parent="1" source="djushEhwb5dEfLm99lg4-9" target="djushEhwb5dEfLm99lg4-11" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="djushEhwb5dEfLm99lg4-9" value="&lt;b&gt;CLICK test name on list&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+                <mxCell id="djushEhwb5dEfLm99lg4-9" value="&lt;b&gt;CLICK test name on list&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;spacingRight=8;spacingLeft=8;" parent="1" vertex="1">
                     <mxGeometry x="354" y="700" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="djushEhwb5dEfLm99lg4-16" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="djushEhwb5dEfLm99lg4-11" target="djushEhwb5dEfLm99lg4-15">
+                <mxCell id="djushEhwb5dEfLm99lg4-16" value="" style="edgeStyle=none;html=1;" parent="1" source="djushEhwb5dEfLm99lg4-11" target="djushEhwb5dEfLm99lg4-15" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="djushEhwb5dEfLm99lg4-11" value="&lt;b&gt;DISPLAY test details &lt;/b&gt;&lt;br&gt;with editable fields" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+                <mxCell id="djushEhwb5dEfLm99lg4-11" value="&lt;b&gt;DISPLAY test details &lt;/b&gt;&lt;br&gt;with editable fields" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;spacingRight=8;spacingLeft=8;" parent="1" vertex="1">
                     <mxGeometry x="337" y="820" width="154" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="djushEhwb5dEfLm99lg4-15" value="&lt;b&gt;END&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="djushEhwb5dEfLm99lg4-15" value="&lt;b&gt;END&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="354" y="920" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>

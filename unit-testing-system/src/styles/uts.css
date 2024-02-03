@@ -1,0 +1,62 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+.uts {
+    max-width: 640px;
+    margin: auto;
+}
+
+.uts-header {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+}
+
+.uts-logo {
+    width: 150px;
+}
+
+
+/* Login */
+
+#login {
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 640px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    /* font-size: 1em; */
+    margin: 16px 0;
+}
+
+input {
+    width: 400px;
+    height: 2em;
+    border: solid 1px lightgrey;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 8px;
+}
+
+button[type="submit"] {
+    background-color: darkviolet;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    font-size: inherit;
+    border: solid 1px blueviolet;
+    padding: 16px 24px;
+    width: 200px;
+    cursor: pointer;
+    margin: 24px 0;
+}
+
