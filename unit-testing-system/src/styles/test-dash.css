@@ -95,6 +95,16 @@ header h1 {
     align-items: center;
 }
 
+.test-block:hover {
+    box-shadow: 2px 1px 5px 1px #e2e4e5;
+    cursor: pointer;
+}
+
+.test-block-headings:hover {
+    box-shadow: none;
+    cursor:default;
+}
+
 .test-details {
     display:flex;
     flex-direction: column;
@@ -163,6 +173,12 @@ header h1 {
     font-weight: 500;
     font-size: large;
     color:#0A4530;
+}
+
+.test-filters a:hover {
+    background-color: #FAFAFA;
+    border-bottom: #AFB1B3 solid 4px;
+    font-weight: 500;
 }
 
 @media screen and (min-width: 740px) {

@@ -63,6 +63,11 @@ h1 {
     border-top: #188660 solid 4px;
 }
 
+.registration-main {
+    margin: auto;
+    max-width: 960px;
+}
+
 @media screen and (min-width: 740px) {
     body {
         display: grid;
@@ -108,6 +113,11 @@ h1 {
         border-left: #188660 solid 4px;
     }
 
+    nav a:hover {
+        background-color: #FAFAFA;
+        border-left: #AFB1B3 solid 4px;
+    }
+
     main {
         grid-area: main;
     }
@@ -135,32 +145,19 @@ h1 {
 label {
     display: flex;
     flex-direction: column;
-    font-weight: 700;
-    /* font-size: 1em; */
+    font-weight: 500;
     margin: 16px 0;
 }
 
 input {
     width: 400px;
-    height: 2em;
-    border: solid 1px lightgrey;
-    border-radius: 8px;
+    height: 40px;
+    border: solid 1px #E1E4E5;
+    border-radius: 5px;
     margin-top: 8px;
     padding: 8px;
 }
 
-button[type="submit"] {
-    background-color: darkviolet;
-    border-radius: 8px;
-    color: #fff;
-    font-weight: 700;
-    font-size: inherit;
-    border: solid 1px blueviolet;
-    padding: 16px 24px;
-    width: 200px;
-    cursor: pointer;
-    margin: 24px 0;
-}
 
 /* Common components */
 
@@ -178,8 +175,16 @@ button[type="submit"] {
     color:#fff;
 }
 
+.btn-primary:hover {
+    background-color: #0A4530;
+}
+
 .btn-secondary {
     background-color: #fff;
     border: 2px solid grey;
     color:#060A0D;
+}
+
+.btn-secondary:hover {
+    background-color: #E1E4E5;
 }

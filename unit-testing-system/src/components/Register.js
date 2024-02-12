@@ -3,7 +3,7 @@ import React from "react";
 const Register = () => {
 
     return (
-        <>
+        <main class="registration-main">
             <h1>Register</h1>
             <form>
                 <label>
@@ -26,9 +26,9 @@ const Register = () => {
                     Confirm password
                     <input type="password" placeholder="Confirm password" />
                 </label>
-                <button type="submit">Register</button>
+                <button type="submit" className="btn btn-primary">Register</button>
             </form>
-        </>
+        </main>
     )
 }
 
