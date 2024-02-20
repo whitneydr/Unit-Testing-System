@@ -1,8 +1,21 @@
+:root {
+    --medium-forest: #1CA676;
+    --dark-forest: #188660;
+    --darker-forest: #0a4530;
+    --highlight-green: #DFF9EF;
+    --dark-coral: #CD422D;
+    --ultra-light-grey: #FAFAFA;
+    --lighter-grey: #E1E4E5;
+    --light-grey: #AFB1B3;
+    --dark-grey: #323333;
+    --darker-grey: #060A0D;
+}
+
 * {
     font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
     margin:0;
-    color: #060A0D;
+    color: var(--darker-grey);
 }
 
 strong {
@@ -40,7 +53,7 @@ h1 {
     justify-content: space-between;
     position:fixed;
     bottom:0;
-    border-top: #E1E4E5 solid 1px;
+    border-top: var(--lighter-grey) solid 1px;
 }
 
 .nav-menu-mobile a {
@@ -59,8 +72,8 @@ h1 {
 }
 
 .nav-menu-mobile a.active {
-    background-color: #DFF9EF;
-    border-top: #188660 solid 4px;
+    background-color: var(--highlight-green);
+    border-top: var(--dark-forest) solid 4px;
 }
 
 .registration-main {
@@ -84,7 +97,7 @@ h1 {
         grid-area: nav;
         height: 100vh;
         max-width: 350px;
-        border: 1px solid #E1E4E5;
+        border: 1px solid var(--lighter-grey);
         border-top:none;
     }
 
@@ -109,13 +122,13 @@ h1 {
     }
 
     nav a.active {
-        background-color: #DFF9EF;
-        border-left: #188660 solid 4px;
+        background-color: var(--highlight-green);
+        border-left: var(--dark-forest) solid 4px;
     }
 
     nav a:hover {
-        background-color: #FAFAFA;
-        border-left: #AFB1B3 solid 4px;
+        background-color: var(--ultra-light-grey);
+        border-left: var(--light-grey) solid 4px;
     }
 
     main {
@@ -152,7 +165,7 @@ label {
 input {
     width: 400px;
     height: 40px;
-    border: solid 1px #E1E4E5;
+    border: solid 1px var(--lighter-grey);
     border-radius: 5px;
     margin-top: 8px;
     padding: 8px;
@@ -170,18 +183,18 @@ input {
 }
 
 .btn-primary {
-    background-color: #188660;
-    border: 1px solid #188660;
+    background-color: var(--dark-forest);
+    border: 1px solid var(--dark-forest);
     color:#fff;
 }
 
 .btn-primary:hover {
-    background-color: #0A4530;
+    background-color: var(--darker-forest);
 }
 
 .btn-secondary {
     background-color: #fff;
-    border: 2px solid grey;
+    border: 2px solid var(--light-grey);
     color:#060A0D;
 }
 
