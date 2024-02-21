@@ -9,8 +9,8 @@ function UnitTestingSystem() {
             <header className='uts-header'>
             <img src={logo} className="uts-logo" alt="logo" />
             </header>
-            {/* <Login /> */}
-            <Register />
+            <Login />
+            {/* <Register /> */}
         </>
     )
 }

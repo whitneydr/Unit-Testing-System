@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 let users = [
     {
@@ -13,28 +13,39 @@ let users = [
 
 const Login = () => {
 
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
+
+    const handleUsername = (event) => {
+        setUsername(event.target.value);
+    }
+
+    const handlePassword = (event) => {
+        setPassword(event.target.value)
+    }
+
     const authenticate = (username, password) => {
 
     }
 
     return (
-        <div>
+        <main>
             <h1>Log in</h1>
             <form id="login">
                 <label>
                     Email:
-                    <input type="email" placeholder="Enter your email address" />
+                    <input type="email" placeholder="Enter your email address" onChange={handleUsername} />
                 </label>
                 <label>
                     Password:
-                    <input type="password" placeholder="Enter your password" />
+                    <input type="password" placeholder="Enter your password" onChange={handlePassword} />
                 </label>
                 <a href="#" className="forgot-password">Forgot your password?</a>
 
-                <button type="submit">Login</button>
+                <button type="submit" className="btn btn-primary">Login</button>
             </form>
             <p><a href="#">New user? Sign up for an account</a></p>
-        </div>
+        </main>
     )
 }
 

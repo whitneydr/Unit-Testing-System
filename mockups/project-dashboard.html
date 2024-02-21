@@ -1,11 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../unit-testing-system/src/styles/uts.css" />
+    <!-- <link rel="stylesheet" href="../unit-testing-system/src/styles/test-dash.css" /> -->
+    <link rel="stylesheet" href="../unit-testing-system/src/styles/project-dash.css" />
 </head>
+
 <body>
-    
+    <div id="root">
+        <header>
+            <div id="logo" class="desktop"><img src="../unit-testing-system/public/logo192.png" /></div>
+            <div class="page-title mobile">
+                <h1>Projects</h1>
+            </div>
+            <div class="create-new">
+                <button class="btn btn-secondary" href="#">+ New project</button>
+                <button class="btn btn-primary" href="#">+ New test</button>
+            </div>
+        </header>
+        <nav class="desktop">
+            <div class="last-login">
+                <strong>Davy Jones</strong><br />
+                <span>Last logged in 31 July 2023 at 4.45pm</span>
+            </div>
+            <div class="nav-menu">
+                <a href="./project-dashboard.html" class="active"><img src="../unit-testing-system/public/icons/Business.svg" alt="" />
+                    Projects
+                </a>
+                <a href="./test-dashboard.html"><img src="../unit-testing-system/public/icons/Products.svg" alt="" />
+                    Tests
+                </a>
+                <a href="#"><img src="../unit-testing-system/public/icons/News.svg" alt="" />
+                    Reports
+                </a>
+                <a href="#"><img src="../unit-testing-system/public/icons/Balance Transfer.svg" alt="" />
+                    Templates
+                </a>
+                <a href="#"><img src="../unit-testing-system/public/icons/Catalogue.svg" alt="" />
+                    Help and support
+                </a>
+                <a href="#"><img src="../unit-testing-system/public/icons/Process Central.svg" alt="" />
+                    Administration
+                </a>
+                <a href="#"><img src="../unit-testing-system/public/icons/Lock.svg" alt="" />
+                    Account details
+                </a>
+                <a href="#"><img src="../unit-testing-system/public/icons/Exit.svg" alt="" />
+                    Log out
+                </a>
+            </div>
+        </nav>
+        <main>
+            <div class="test-filters">
+                <a href="#" class="active">All</a>
+                <a href="#">Backlog</a>
+                <a href="#">In progress</a>
+                <a href="#">Complete</a>
+            </div>
+            <div class="project-list">
+                <div class="project-block project-block-headings desktop">
+                    <div class="project-details">
+                        <div>Project ID</div>
+                        <div>Project name</div>
+                        <div>Due date</div>
+                        <div>Owner</div>
+                    </div>
+                    <div class="project-status">Status</div>
+
+                </div>
+                <div class="project-block">
+                    <div class="project-details">
+                        <div class="project-id">UTS</div>
+                        <div class="project-title"><a href="./project-page.html">Unit Testing System</a></div>
+                        <div class="project-due-date"><span class="mobile"><strong>Due date: </strong></span>7 Aug 2024
+                        </div>
+                        <div class="project-owner"><span class="mobile"><strong>Project owner: </strong></span>James
+                            Blunt</div>
+                    </div>
+                    <div class="project-status in-progress">In progress</div>
+
+                </div>
+
+                <div class="project-block">
+                    <div class="project-details">
+                        <div class="project-id">MRS</div>
+                        <div class="project-title">Mars Rover Spycam</div>
+                        <div class="project-due-date"><span class="mobile"><strong>Due date: </strong></span>23 Dec 2037
+                        </div>
+                        <div class="project-owner"><span class="mobile"><strong>Project owner: </strong></span>Elon Musk
+                        </div>
+                    </div>
+                    <div class="project-status">Backlog</div>
+                </div>
+
+                <div class="project-block">
+                    <div class="project-details">
+                        <div class="project-id">DT1</div>
+                        <div class="project-title">Decision Tree</div>
+                        <div class="project-due-date"><span class="mobile"><strong>Due date: </strong></span>1 Feb 2024
+                        </div>
+                        <div class="project-owner"><span class="mobile"><strong>Project owner: </strong></span>Harry
+                            Styles</div>
+                    </div>
+                    <div class="project-status complete">Complete</div>
+                </div>
+            </div>
+
+
+        </main>
+        <nav class="nav-menu-mobile mobile">
+            <a href="./project-dashboard.html" class="active"><img src="../unit-testing-system/public/icons/Business.svg" alt="" />
+                Projects
+            </a>
+            <a href="./test-dashboard.html"><img src="../unit-testing-system/public/icons/Products.svg" alt="" />
+                Tests
+            </a>
+            <a href="#"><img src="../unit-testing-system/public/icons/News.svg" alt="" />
+                Reports
+            </a>
+            <a href="#"><img src="../unit-testing-system/public/icons/More.svg" alt="" />
+                More
+            </a>
+
+        </nav>
+    </div>
 </body>
+
 </html>

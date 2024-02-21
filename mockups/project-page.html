@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../unit-testing-system/src/styles/uts.css" />
+    <link rel="stylesheet" href="../unit-testing-system/src/styles/test-dash.css" />
+    <link rel="stylesheet" href="../unit-testing-system/src/styles/project-page.css" />
+</head>
+
+<body>
+    <div id="root">
+        <header>
+            <div id="logo" class="desktop"><img src="../unit-testing-system/public/logo192.png" /></div>
+            <div class="page-title mobile">
+                <h1>Projects</h1>
+            </div>
+            <div class="create-new">
+                <button class="btn btn-secondary" href="#">+ New project</button>
+                <button class="btn btn-primary" href="#">+ New test</button>
+            </div>
+        </header>
+        <nav class="desktop">
+            <div class="last-login">
+                <strong>Davy Jones</strong><br />
+                <span>Last logged in 31 July 2023 at 4.45pm</span>
+            </div>
+            <div class="nav-menu">
+                <a href="./project-dashboard.html" class="active"><img src="../unit-testing-system/public/icons/Business.svg" alt="" />
+                    Projects
+                </a>
+                <a href="./test-dashboard.html"><img src="../unit-testing-system/public/icons/Products.svg" alt="" />
+                    Tests
+                </a>
+                <a href="#"><img src="../unit-testing-system/public/icons/News.svg" alt="" />
+                    Reports
+                </a>
+                <a href="#"><img src="../unit-testing-system/public/icons/Balance Transfer.svg" alt="" />
+                    Templates
+                </a>
+                <a href="#"><img src="../unit-testing-system/public/icons/Catalogue.svg" alt="" />
+                    Help and support
+                </a>
+                <a href="#"><img src="../unit-testing-system/public/icons/Process Central.svg" alt="" />
+                    Administration
+                </a>
+                <a href="#"><img src="../unit-testing-system/public/icons/Lock.svg" alt="" />
+                    Account details
+                </a>
+                <a href="#"><img src="../unit-testing-system/public/icons/Exit.svg" alt="" />
+                    Log out
+                </a>
+            </div>
+        </nav>
+        <main>
+            <div class="btn-back"><a href="./project-dashboard.html">< Back to Project List</a></div>
+            <section>
+                <h1>Unit Testing System</h1>
+                <div id="project-summary" class="project-details-section">
+                    <h2>Project Summary</h2>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ullamcorper nibh justo, at
+                            vulputate eros varius sit amet. Mauris non turpis magna. Pellentesque habitant morbi
+                            tristique senectus et netus et malesuada fames ac turpis egestas. Cras pellentesque lacinia
+                            eros, eget finibus urna dictum eu. Aenean tellus odio, pretium et eros a, congue egestas
+                            mauris. Fusce quis tincidunt urna.
+                        </p>
+                    </div>
+                    <div class="edit-link">Edit summary</div>
+                </div>
+
+                <div id="acceptance-criteria" class="project-details-section">
+                    <h2>Acceptance Criteria</h2>
+                    <div class="ac-list">
+                        <div class="ac-block">
+                            <div class="ac-details">
+                                <div class="ac-id">AC1</div>
+                                <div class="ac-title">Styling and typography must match designs provided</div>
+                            </div>
+                            <div class="ac-status complete">Complete</div>
+                        </div>
+                        <div class="ac-block">
+                            <div class="ac-details">
+                                <div class="ac-id">AC2</div>
+                                <div class="ac-title">User must be able to log in securely</div>
+                            </div>
+                            <div class="ac-status in-progress">In progress</div>
+                        </div>
+                        <div class="ac-block">
+                            <div class="ac-details">
+                                <div class="ac-id">AC3</div>
+                                <div class="ac-title">User dashboard must display all available projects</div>
+                            </div>
+                            <div class="ac-status">To do</div>
+                        </div>
+                    </div>
+                    <div class="edit-link">+ Add acceptance criteria</div>
+                </div>
+
+                <div id="progress" class="project-details-section">
+                    <h2>Progress</h2>
+
+                    <div id="progress-bar">
+                        <div id="to-do" style="width: 30%">30%</div>
+                        <div id="in-progress" style="width: 20%">20%</div>
+                        <div id="passed" style="width: 40%">40%</div>
+                        <div id="failed" style="width: 10%">10%</div>
+                    </div>
+                    <div class="progress-key">
+                        
+                            <ul>
+                                <li class="grey">To do</li>
+                                <li class="yellow">In progress</li>
+                                <li class="green">Passed</li>
+                                <li class="red">Failed</li>
+                            </ul>
+                        
+                    </div>
+                </div>
+
+                <div class="project-details-section">
+                    <h2>Tests</h2>
+                    <div class="test-filters">
+                        <a href="#" class="active">All</a>
+                        <a href="#">To do</a>
+                        <a href="#">Passed</a>
+                        <a href="#">Failed</a>
+                    </div>
+
+                    <div class="test-list">
+       
+                        <div class="test-block">
+                            <div class="test-details">
+                            <div class="test-id">UST 01.01-02</div>
+                            <div class="test-title">Registration button exists</div>
+                            <div class="test-project"><span class="mobile"><strong>Project: </strong></span>Unit Testing System</div>
+                            <div class="test-assignee"><span class="mobile"><strong>Assigned to: </strong></span>James Blunt</div>
+                        </div>
+                            <div class="test-status">To do</div>
+                            
+                        </div>
+                
+                        <div class="test-block">
+                            <div class="test-details">
+                            <div class="test-id">UST 01.01-01</div>
+                            <div class="test-title">Registration button exists</div>
+                            <div class="test-project"><span class="mobile"><strong>Project: </strong></span>Unit Testing System</div>
+                            <div class="test-assignee"><span class="mobile"><strong>Assigned to: </strong></span>James Blunt</div>
+                            </div>
+                            <div class="test-status failed">Failed</div>
+                        </div>
+                
+                        <div class="test-block">
+                            <div class="test-details">
+                            <div class="test-id">BC 01.01-01</div>
+                            <div class="test-title">Calculator adds numbers correctly</div>
+                            <div class="test-project"><span class="mobile"><strong>Project: </strong></span>Budget calculator</div>
+                            <div class="test-assignee"><span class="mobile"><strong>Assigned to: </strong></span>Harry Styles</div>
+                            </div>
+                            <div class="test-status passed">Passed</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <nav class="nav-menu-mobile mobile">
+            <a href="./project-dashboard.html" class="active"><img src="../unit-testing-system/public/icons/Business.svg" alt="" />
+                Projects
+            </a>
+            <a href="./test-dashboard.html"><img src="../unit-testing-system/public/icons/Products.svg" alt="" />
+                Tests
+            </a>
+            <a href="#"><img src="../unit-testing-system/public/icons/News.svg" alt="" />
+                Reports
+            </a>
+            <a href="#"><img src="../unit-testing-system/public/icons/More.svg" alt="" />
+                More
+            </a>
+
+        </nav>
+    </div>
+
+</body>
+
+</html>

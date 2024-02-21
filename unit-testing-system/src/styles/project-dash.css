@@ -1,0 +1,222 @@
+/* Header */
+
+header {
+    width: 100%;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+
+header h1 {
+    font-size: 1em;
+    font-weight: 500;
+    color:#fff;
+}
+
+.page-title.mobile {
+    color: #fff;
+    font-size: large;
+    background-color: var(--darker-forest);
+    padding: 32px 0 16px 0;
+    width:100%;
+    text-align: center;
+}
+
+
+
+.create-new {
+    display: flex;
+    justify-content: center;
+    padding:24px 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 739px) {
+    .desktop {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 740px) {
+    #logo {
+        display:block;
+        margin: 8px 24px;
+    }
+
+    #logo img{
+        max-height: 50px;
+    }
+
+    header {
+        flex-direction: row;
+        background-color: #fff;
+        height: 90px;
+        border-bottom: 1px solid var(--lighter-grey);
+        padding:0;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .create-new {
+        display: flex;
+        justify-content: flex-end;
+        width:fit-content;
+        background-color: initial;
+        margin-right:24px;
+        padding:0;
+    }
+}
+
+/* Project list */
+
+.project-list {
+    margin: 32px 0;
+}
+
+.project-block {
+    border: solid 1px var(--lighter-grey);
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-block:hover {
+    box-shadow: 2px 1px 5px 1px var(--lighter-grey);
+    cursor: pointer;
+}
+
+.project-block-headings:hover {
+    box-shadow: none;
+    cursor:default;
+}
+
+.project-details {
+    display:flex;
+    flex-direction: column;
+}
+
+.project-id {
+    font-size: small;
+    color: var(--dark-grey);
+}
+
+.project-title {
+    font-weight: 500;
+    margin-bottom:8px;
+}
+
+.project-title a {
+    text-decoration: none;
+    color:var(--darker-grey);
+}
+
+.project-due-date {
+    font-size: small;
+}
+
+.project-owner {
+    font-size: small;
+}
+
+.project-status {
+    background-color: var(--lighter-grey);
+    width:100px;
+    height:fit-content;
+    padding: 8px;
+    text-align: center;
+    font-weight: 600;
+    font-size: small;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.project-status.in-progress {
+    background-color: var(--progress-yellow);
+    color: var(--darker-grey);
+}
+
+.project-status.complete {
+    background-color: var(--dark-forest);
+    color:#fff;
+}
+
+
+.test-filters {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    border-bottom: var(--lighter-grey) solid 1px;
+}
+
+.test-filters a {
+    width: 20%;
+    max-width:10em;
+    padding: 1% 2%;
+    color: var(--dark-forest);
+    text-align: center;
+}
+
+.test-filters a.active {
+    background-color: var(--ultra-light-grey);
+    border-bottom: var(--dark-forest) solid 4px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: large;
+    color: var(--darker-forest);
+}
+
+.test-filters a:hover {
+    background-color: var(--ultra-light-grey);
+    border-bottom: var(--light-grey) solid 4px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 740px) {
+    /* .test-block {
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+    } */
+    .project-details {
+        display:grid;
+        grid-template-columns: 18% 42% 18% 18%;
+        gap:8px;
+        justify-items: start;
+        flex-grow: 2;
+    }
+
+    .project-status {
+        justify-self: end;
+    }
+
+    .project-owner, .project-id, .project-due-date {
+        font-size: initial;
+    }
+
+    .project-block-headings {
+        background-color: var(--ultra-light-grey);
+        padding: 4px 16px;
+        border:none;
+        border-radius: 0;
+        font-weight:500;
+        font-size: small;
+    }
+
+    .project-block-headings .project-status {
+        text-transform: none;
+        font-weight: 500;
+        padding:0;
+        background-color: initial;
+    }
+}
