@@ -13,6 +13,21 @@
     margin: 24px 0;
 }
 
+.edit-button {
+    display: none;
+}
+
+#project-summary:hover {
+    border: 1px solid var(--lighter-grey);
+}
+
+#project-summary:hover .edit-button {
+    display:inline;
+    float: right;
+    margin: 20px;
+    cursor: pointer;
+}
+
 /* Acceptance Criteria list */
 
 .ac-list {

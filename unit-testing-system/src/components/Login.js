@@ -1,17 +1,19 @@
 import React, { useState, useEffect } from "react";
+import users from "../database/Users.js";
 
-let users = [
-    {
-        email: "test@test.com",
-        password: "OpenSesame"
-    },
-    {
-        email: "check@test.com",
-        password: "Giraffe7"
-    }
-]
+// let users = [
+//     {
+//         email: "test@test.com",
+//         password: "OpenSesame"
+//     },
+//     {
+//         email: "check@test.com",
+//         password: "Giraffe7"
+//     }
+// ]
 
 const Login = () => {
+
 
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
