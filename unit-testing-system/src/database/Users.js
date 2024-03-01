@@ -1,6 +1,6 @@
-import React from 'react';
 
-export default [
+
+const Users = [
         {
             email: "test@test.com",
             password: "OpenSesame",
@@ -21,3 +21,4 @@ export default [
         }
     ]
 
+export default Users;

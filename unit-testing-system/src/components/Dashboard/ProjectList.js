@@ -4,11 +4,6 @@ import Projects from "../../database/Projects";
 
 const ProjectList = () => {
 
-//     console.log(Projects);
-
-//    for (let i=0; i < Projects.length; i++) {
-//     console.log(Projects[i].title)
-//    }
 
     return (
         <main>

@@ -1,124 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test dashboard</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../unit-testing-system/src/styles/uts.css" />
     <link rel="stylesheet" href="../unit-testing-system/src/styles/test-dash.css" />
 </head>
+
 <body>
     <div id="root">
-   <header>
-    <div id="logo" class="desktop"><img src="../unit-testing-system/public/logo192.png" /></div>
-    <div class="page-title mobile"><h1>Tests</h1></div>
-    <div class="create-new">
-        <button class="btn btn-secondary" href="#">+ New project</button>
-        <button class="btn btn-primary" href="#">+ New test</button>
-        </div>
-   </header> 
-   <nav class="desktop">
-    <div class="last-login">
-        <strong>Davy Jones</strong><br />
-        <span>Last logged in 31 July 2023 at 4.45pm</span>
-    </div>
-    <div class="nav-menu">
-        <a href="./project-dashboard.html"><img src="../unit-testing-system/public/icons/Business.svg" alt="" />
-            Projects
-        </a>
-        <a href="#" class="active"><img src="../unit-testing-system/public/icons/Products.svg" alt="" />
-            Tests
-        </a>
-        <a href="#"><img src="../unit-testing-system/public/icons/News.svg" alt="" />
-            Reports
-        </a>
-        <a href="#"><img src="../unit-testing-system/public/icons/Balance Transfer.svg" alt="" />
-            Templates
-        </a>
-        <a href="#"><img src="../unit-testing-system/public/icons/Catalogue.svg" alt="" />
-            Help and support
-        </a>
-        <a href="#"><img src="../unit-testing-system/public/icons/Process Central.svg" alt="" />
-            Administration
-        </a>
-        <a href="#"><img src="../unit-testing-system/public/icons/Lock.svg" alt="" />
-            Account details
-        </a>
-        <a href="#"><img src="../unit-testing-system/public/icons/Exit.svg" alt="" />
-            Log out
-        </a>
-</div>
-</nav>
-   <main>
-<div class="test-filters">
-    <a href="#" class="active">All</a>
-    <a href="#">To do</a>
-    <a href="#">Passed</a>
-    <a href="#">Failed</a>
-</div>
-    <div class="test-list">
-        <div class="test-block test-block-headings desktop">
-            <div class="test-details">
-            <div>Test ID</div>
-            <div>Test title</div>
-            <div>Project title</div>
-            <div>Assigned to</div>
-        </div>
-            <div class="test-status">Status</div>
-            
-        </div>
-        <div class="test-block">
-            <div class="test-details">
-            <div class="test-id">UST 01.01-02</div>
-            <div class="test-title">Registration button exists</div>
-            <div class="test-project"><span class="mobile"><strong>Project: </strong></span>Unit Testing System</div>
-            <div class="test-assignee"><span class="mobile"><strong>Assigned to: </strong></span>James Blunt</div>
-        </div>
-            <div class="test-status">To do</div>
-            
-        </div>
-
-        <div class="test-block">
-            <div class="test-details">
-            <div class="test-id">UST 01.01-01</div>
-            <div class="test-title">Registration button exists</div>
-            <div class="test-project"><span class="mobile"><strong>Project: </strong></span>Unit Testing System</div>
-            <div class="test-assignee"><span class="mobile"><strong>Assigned to: </strong></span>James Blunt</div>
+        <header>
+            <div id="logo" class="desktop"><img src="../unit-testing-system/public/logo192.png" /></div>
+            <div class="page-title mobile">
+                <h1>Tests</h1>
             </div>
-            <div class="test-status failed">Failed</div>
-        </div>
-
-        <div class="test-block">
-            <div class="test-details">
-            <div class="test-id">BC 01.01-01</div>
-            <div class="test-title">Calculator adds numbers correctly</div>
-            <div class="test-project"><span class="mobile"><strong>Project: </strong></span>Budget calculator</div>
-            <div class="test-assignee"><span class="mobile"><strong>Assigned to: </strong></span>Harry Styles</div>
+            <div class="create-new">
+                <button class="btn btn-secondary" href="#">+ New project</button>
+                <button class="btn btn-primary" href="#">+ New test</button>
             </div>
-            <div class="test-status passed">Passed</div>
-        </div>
-    </div>
+        </header>
+        <nav class="desktop">
+            <div class="last-login">
+                <strong>Davy Jones</strong><br />
+                <span>Last logged in 31 July 2023 at 4.45pm</span>
+            </div>
+            <div class="nav-menu">
+                <a href="./project-dashboard.html"><img src="../unit-testing-system/public/icons/Business.svg" alt="" />
+                    Projects
+                </a>
+                <a href="#" class="active"><img src="../unit-testing-system/public/icons/Products.svg" alt="" />
+                    Tests
+                </a>
+                <a href="#"><img src="../unit-testing-system/public/icons/News.svg" alt="" />
+                    Reports
+                </a>
+                <a href="#"><img src="../unit-testing-system/public/icons/Balance Transfer.svg" alt="" />
+                    Templates
+                </a>
+                <a href="#"><img src="../unit-testing-system/public/icons/Catalogue.svg" alt="" />
+                    Help and support
+                </a>
+                <a href="#"><img src="../unit-testing-system/public/icons/Process Central.svg" alt="" />
+                    Administration
+                </a>
+                <a href="#"><img src="../unit-testing-system/public/icons/Lock.svg" alt="" />
+                    Account details
+                </a>
+                <a href="#"><img src="../unit-testing-system/public/icons/Exit.svg" alt="" />
+                    Log out
+                </a>
+            </div>
+        </nav>
+        <main>
+            <div class="test-filters">
+                <a href="#" class="active">All</a>
+                <a href="#">To do</a>
+                <a href="#">Passed</a>
+                <a href="#">Failed</a>
+            </div>
+            <div class="test-list">
+                <div class="test-block test-block-headings desktop">
+                    <div class="test-details">
+                        <div>Test ID</div>
+                        <div>Test title</div>
+                        <div>Project title</div>
+                        <div>Assigned to</div>
+                    </div>
+                    <div class="test-status">Status</div>
 
-   
-   </main>
-   <nav class="nav-menu-mobile mobile">
-    <a href="./project-dashboard.html"><img src="../unit-testing-system/public/icons/Business.svg" alt="" />
-        Projects
-    </a>
-    <a href="#" class="active"><img src="../unit-testing-system/public/icons/Products.svg" alt="" />
-        Tests
-    </a>
-    <a href="#"><img src="../unit-testing-system/public/icons/News.svg" alt="" />
-        Reports
-    </a>
-    <a href="#"><img src="../unit-testing-system/public/icons/More.svg" alt="" />
-        More
-    </a>
-    
-</nav>
-   </div>
+                </div>
+                <div class="test-block">
+                    <div class="test-details">
+                        <div class="test-id">UST 01.01-02</div>
+                        <div class="test-title">Registration button exists</div>
+                        <div class="test-project"><span class="mobile"><strong>Project: </strong></span>Unit Testing
+                            System</div>
+                        <div class="test-assignee"><span class="mobile"><strong>Assigned to: </strong></span>James Blunt
+                        </div>
+                    </div>
+                    <div class="test-status">To do</div>
+
+                </div>
+
+                <div class="test-block">
+                    <div class="test-details">
+                        <div class="test-id">UST 01.01-01</div>
+                        <div class="test-title">Registration button exists</div>
+                        <div class="test-project"><span class="mobile"><strong>Project: </strong></span>Unit Testing
+                            System</div>
+                        <div class="test-assignee"><span class="mobile"><strong>Assigned to: </strong></span>James Blunt
+                        </div>
+                    </div>
+                    <div class="test-status failed">Failed</div>
+                </div>
+
+                <div class="test-block">
+                    <div class="test-details">
+                        <div class="test-id">BC 01.01-01</div>
+                        <div class="test-title">Calculator adds numbers correctly</div>
+                        <div class="test-project"><span class="mobile"><strong>Project: </strong></span>Budget
+                            calculator</div>
+                        <div class="test-assignee"><span class="mobile"><strong>Assigned to: </strong></span>Harry
+                            Styles</div>
+                    </div>
+                    <div class="test-status passed">Passed</div>
+                </div>
+            </div>
+
+
+        </main>
+        <nav class="nav-menu-mobile mobile">
+            <a href="./project-dashboard.html"><img src="../unit-testing-system/public/icons/Business.svg" alt="" />
+                Projects
+            </a>
+            <a href="#" class="active"><img src="../unit-testing-system/public/icons/Products.svg" alt="" />
+                Tests
+            </a>
+            <a href="#"><img src="../unit-testing-system/public/icons/News.svg" alt="" />
+                Reports
+            </a>
+            <a href="#"><img src="../unit-testing-system/public/icons/More.svg" alt="" />
+                More
+            </a>
+
+        </nav>
+    </div>
 </body>
+
 </html>
