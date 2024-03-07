@@ -11,7 +11,7 @@ const TestDashboard = () => {
 
     return (
         <>
-        <Header />
+        <Header heading="Tests" />
         <SideMenu />
         <TestList />
         <MobileMenu />

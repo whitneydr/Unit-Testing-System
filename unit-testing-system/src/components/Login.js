@@ -17,6 +17,7 @@ const Login = () => {
 
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
+    const [authentication, setAuthentication] = useState(false);
 
     const handleUsername = (event) => {
         setUsername(event.target.value);

@@ -13,7 +13,7 @@ const ProjectDashboard = () => {
 
     return (
         <>
-            <Header />
+            <Header heading="Projects" />
             <SideMenu />
             <ProjectList />
             <MobileMenu />

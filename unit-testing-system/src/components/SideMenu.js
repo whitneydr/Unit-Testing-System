@@ -13,7 +13,7 @@ const SideMenu = () => {
             <span>Last logged in 31 July 2023 at 4.45pm</span>
         </div>
         <div className="nav-menu">
-            <a href="./project-dashboard.html" className="active"><img src="/icons/Business.svg" alt="" />
+            <a href="./project-dashboard.html" className="active" aria-current="page"><img src="/icons/Business.svg" alt="" />
                 Projects
             </a>
             <a href="./test-dashboard.html"><img src="/icons/Products.svg" alt="" />

@@ -37,7 +37,7 @@ const TestList = () => {
             </div>
 
             {Tests.map((test) => {
-                return <TestItem id={test.id} title={test.title} project={test.projectName} status={test.status} assignee={test.assignee} />
+                return <TestItem key={test.id} id={test.id} title={test.title} project={test.projectName} status={test.status} assignee={test.assignee} />
             })}
 
             {/* <div className="test-block">
